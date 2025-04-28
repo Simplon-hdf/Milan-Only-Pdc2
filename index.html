@@ -1,0 +1,310 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Lorem ">
+	<link rel="manifest" href="manifest.json">
+	<script src="https://cdn.tailwindcss.com"></script>
+	<link rel="icon" type="image/x-icon" href="./images/android-chrome-512x512.png">
+	<title>Only PDC</title>
+</head>
+
+<body>
+	<!-- Navbar -->
+	<nav
+		class="bg-[#F0EDE6] px-2 sm:px-4 py-2.5 dark:bg-[#F0EDE6] fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
+		<div class="container flex flex-wrap items-center justify-between mx-auto">
+			<a class="text-sm font-bold items-center leading-relaxed flex mr-4 whitespace-nowrap uppercase text-black"
+				href="#">
+				<img src="./graphic-charter/pdc-logo.svg"
+					alt="Logo PDC" class="h-20 m-0 w-auto" />
+				<p class="text-xl font-semibold whitespace-nowrap dark:text-[#E46602] hover:text-orange-500"> &nbsp; &nbsp;Only PDC</p>
+			</a>
+			<div class="flex md:order-2">
+				<a href="Contact.html"
+					class="hidden lg:block text-white bg-orange-500 focus:ring-4 focus:outline-none font-medium text-xl  rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0 ">Contactez-moi!</a>
+				<button type="button" id="menu"
+					class="js-nav-button inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+					aria-controls="menu" aria-expanded="false">
+					<span class="sr-only">Open main menu</span>
+					<svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
+						xmlns="http://www.w3.org/2000/svg">
+						<path fill-rule="evenodd"
+							d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+							clip-rule="evenodd"></path>
+					</svg>
+				</button>
+			</div>
+			<div class="items-center justify-between w-full hidden md:flex md:w-auto md:order-1 js-nav-container">
+				<ul
+					class="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-[#F0EDE6] md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-[#F0EDE6] dark:bg-[#F0EDE6] md:dark:bg-[#F0EDE6] dark:border-gray-700">
+					
+					<li>
+						<a href="index.html"
+							class="js-nav-link block text-xl py-2 pl-3 pr-4 text-[#0F1513] rounded hover:text-[#E46602] hover:bg-gray-100 md:hover:bg-transparent md:p-0 md:dark:hover:text-[#E46602] dark:text-[#0F1513] dark:hover:bg-gray-700 dark:hover:text-[#E46602] md:dark:hover:bg-transparent dark:border-gray-700">À propos</a>
+					</li>
+					<li>
+						<a href="Services.html"
+							class="js-nav-link block text-xl py-2 pl-3 pr-4 text-[#0F1513] rounded hover:text-[#E46602] hover:bg-gray-100 md:hover:bg-transparent md:p-0 md:dark:hover:text-[#E46602] dark:text-[#0F1513] dark:hover:bg-gray-700 dark:hover:text-[#E46602] md:dark:hover:bg-transparent dark:border-gray-700">Mes Services</a>
+					</li>
+					<li>
+						<a href="Parcours.html"
+							class="js-nav-link block text-xl py-2 pl-3 pr-4 text-[#0F1513] rounded hover:text-[#E46602] hover:bg-gray-100 md:hover:bg-transparent md:p-0 md:dark:hover:text-[#E46602] dark:text-[#0F1513] dark:hover:bg-gray-700 dark:hover:text-[#E46602] md:dark:hover:bg-transparent dark:border-gray-700">Notre parcours</a>
+					</li>
+					<li>
+						<a href="Reservation.html"
+							class="js-nav-link block text-xl py-2 pl-3 pr-4 text-[#0F1513] rounded hover:text-[#E46602] hover:bg-gray-100 md:hover:bg-transparent md:p-0 md:dark:hover:text-[#E46602] dark:text-[#0F1513] dark:hover:bg-gray-700 dark:hover:text-[#E46602] md:dark:hover:bg-transparent dark:border-gray-700">Réservations</a>
+					</li>
+					<li>
+						<a href="Galerie.html"
+							class="js-nav-link block text-xl py-2 pl-3 pr-4 text-[#0F1513] rounded hover:text-[#E46602] hover:bg-gray-100 md:hover:bg-transparent md:p-0 md:dark:hover:text-[#E46602] dark:text-[#0F1513] dark:hover:bg-gray-700 dark:hover:text-[#E46602] md:dark:hover:bg-transparent dark:border-gray-700">Galerie</a>
+					</li>
+					<li>
+						<a href="Avis.html"
+							class="js-nav-link block text-xl py-2 pl-3 pr-4 text-[#0F1513] rounded hover:text-[#E46602] hover:bg-gray-100 md:hover:bg-transparent md:p-0 md:dark:hover:text-[#E46602] dark:text-[#0F1513] dark:hover:bg-gray-700 dark:hover:text-[#E46602] md:dark:hover:bg-transparent dark:border-gray-700">Avis</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<!-- Main Area -->
+	<main class="bg-[#ffffff]">
+		<!-- Hero -->
+<div class="relative pt-16 pb-32 flex content-center items-center justify-center" style="min-height: 100vh;">
+    <div class="absolute top-0 w-full h-full bg-center lg:bg-left lg:bg-[center_40%] bg-cover bg-no-repeat hidden sm:block"
+        style="background-image: url('images/pexels-photo-2294363crop2.jpeg'); filter: contrast(1.3) saturate(1.3) brightness(1.1);">
+        <span class="w-full h-full absolute"></span><!---Blue Overlay : #41658A or grey: #746D75 -->
+    </div>
+    <div class="container relative mx-auto" data-aos="fade-in">
+        <div class="items-center flex flex-wrap">
+            <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
+                <div class="absolute bottom-[20%] sm:bottom-[35%] left-1/2 transform -translate-x-1/2 
+                    bg-black/50 backdrop-blur-md px-4 sm:px-6 py-4 rounded-xl text-center 
+                    w-[90%] sm:max-w-xl shadow-lg border border-white/30">
+                    <h1 class="text-white font-extrabold text-2xl sm:text-5xl leading-tight drop-shadow-md">
+                        Transforme ton corps.<br>
+                        <span class="text-orange-500">Reprends le contrôle.</span>
+                    </h1>
+                    <p class="mt-3 text-gray-100 text-sm sm:text-base leading-snug drop-shadow-sm">
+                        Rejoins un programme de calisthénie sur mesure, pensé pour t’amener plus loin que la salle :
+                        <span class="font-bold text-orange-500">Zéro machine, 100% Résultats.</span><br class="hidden sm:block" />
+                    </p>
+                    <a href="#calendar" class="mt-6 inline-block bg-orange-500 hover:bg-orange-600 text-white font-bold 
+                        text-sm sm:text-lg rounded-full px-6 sm:px-8 py-2 sm:py-3 shadow-xl tracking-wide uppercase 
+                        transition duration-300 ease-in-out hover:scale-105 border-2 border-white">
+                        Commençons maintenant
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden"
+        style="height: 70px; transform: translateZ(0px)">
+        <svg class="absolute bottom-0 overflow-hidden" xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="none" version="1.1" viewBox="0 0 2560 100" x="0" y="0">
+            <polygon points="2560 0 2560 100 0 100"></polygon>
+        </svg>
+    </div>
+</div>
+<!-- END Hero -->
+		<!-- About Section -->
+		<section id="about" class="relative py-10 md:py-20 bg-[#ffffff] text-black">
+			<div class="container mx-auto px-8">
+				<div class="items-center flex flex-wrap">
+					<div class="w-full md:w-5/12 lg:w-4/12 xl:w-4/12 mx-auto md:pr-6 lg:pr-12 mb-6 md:mb-0"
+						data-aos="fade-right">
+						<img alt="..." width="469" height="704" class="max-w-full rounded-lg shadow-lg"
+							src="images/hbfl-MAeON6j6UFFEjzwZ.png" />
+					</div>
+					<div class="w-full md:w-6/12 lg:w-6/12 xl:w-5/12 mx-auto md:pl-6 lg:pl-12" data-aos="fade-left">
+						<div>
+							<small class="text-orange-500hover-[#E46602]"></small>
+							<h1
+								class="text-3xl font-bold text-[#E46602] hover:text-[#0F1513] transition-colors duration-300">
+								Le coaching calisthenics pour une transformation 100% naturelle
+							</h1>
+							<p class="mt-4 md:mt-6 text-lg md:text-xl leading-relaxed">
+								Je m'appelle Milan, passionné de sport et de mouvement naturel. Je me spécialise dans
+								l'entraînement au poids du corps (calisthenics, mobilité, gainage) et je me forme pour
+								devenir coach sportif. Mon objectif est simple : aider les autres à se sentir plus
+								forts, plus souples et en meilleure forme, uniquement avec leur corps comme outil.
+							</p>
+							<ul class="list-disc list-inside my-6 md:mb-8 lg:mb-10">
+								<li class="flex items-start mb-2">
+									<span
+										class="h-6 w-6 md:h-8 md:w-8 mr-2 flex items-center justify-center bg-[#E46602] rounded-full text-white flex-shrink-0 hover:bg-[#0F1513]">
+										<svg class="w-3 h-3 md:w-4 md:h-4 fill-current" viewBox="0 0 20 20">
+											<path
+												d="M9.293 16.707c-0.391 0.391-1.023 0.391-1.414 0l-6-6c-0.391-0.391-0.391-1.023 0-1.414s1.023-0.391 1.414 0l5.293 5.293l11.293-11.293c0.391-0.391 1.023-0.391 1.414 0s0.391 1.023 0 1.414l-12 12C10.316 17.098 9.684 17.098 9.293 16.707z" />
+										</svg>
+									</span>
+									<span class="text-lg leading-6 font-medium"> Un programme personnalisé adapté à vos objectifs et à vos besoins spécifiques</span>
+								</li>
+								<li class="flex items-start mb-2">
+									<span
+										class="h-6 w-6 md:h-8 md:w-8 mr-2 flex items-center justify-center bg-[#E46602] rounded-full text-white flex-shrink-0 hover:bg-[#0F1513]">
+										<svg class="w-3 h-3 md:w-4 md:h-4 fill-current" viewBox="0 0 20 20">
+											<path
+												d="M9.293 16.707c-0.391 0.391-1.023 0.391-1.414 0l-6-6c-0.391-0.391-0.391-1.023 0-1.414s1.023-0.391 1.414 0l5.293 5.293l11.293-11.293c0.391-0.391 1.023-0.391 1.414 0s0.391 1.023 0 1.414l-12 12C10.316 17.098 9.684 17.098 9.293 16.707z" />
+										</svg>
+									</span>
+									<span class="text-lg leading-6 font-medium">Entraînement fonctionnel qui améliorera votre condition physique générale et vous aider à mieux bouger dans votre vie quotidienne</span>
+								</li>
+								<li class="flex items-start">
+									<span
+										class="h-6 w-6 md:h-8 md:w-8 mr-2 flex items-center justify-center bg-[#E46602] rounded-full text-white flex-shrink-0 hover:bg-[#0F1513]">
+										<svg class="w-3 h-3 md:w-4 md:h-4 fill-current" viewBox="0 0 20 20">
+											<path
+												d="M9.293 16.707c-0.391 0.391-1.023 0.391-1.414 0l-6-6c-0.391-0.391-0.391-1.023 0-1.414s1.023-0.391 1.414 0l5.293 5.293l11.293-11.293c0.391-0.391 1.023-0.391 1.414 0s0.391 1.023 0 1.414l-12 12C10.316 17.098 9.684 17.098 9.293 16.707z" />
+										</svg>
+									</span>
+									<span class="text-lg leading-6 font-medium">Formation sur la forme, la nutrition et l'état d'esprit pour assurer un succès à long terme</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- END About Section -->
+		
+	<!-- Footer -->
+	<footer class="bg-[#f0ede6]">
+		<div class="mx-auto w-full container sm:px-4 pt-8 pb-8">
+			<div class="md:flex md:justify-between">
+				<div class="mb-6 md:mb-0">
+					<a class="text-sm font-bold items-center leading-relaxed flex mr-4 whitespace-nowrap uppercase text-gray-200"
+						href="#">
+						<img src="graphic-charter/pdc-logo.svg"
+							alt="Logo PDC" class="w-24 h-auto">
+					</a>
+				</div>
+				<div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3 text-center">
+					<div>
+						<h2 class="mb-6 text-sm font-semibold text-gray-400 uppercase dark:text-[#746D75]">Resources</h2>
+						<ul class="text-gray-600 dark:text-gray-400">
+							<li class="mb-4">
+								<a href="#" class="hover:underline hover:text-[#E46602] text-[#0F1513]">Flowbite</a>
+							</li>
+							<li>
+								<a href="#" class="hover:underline hover:text-[#E46602] text-[#0F1513]">Tailwind CSS</a>
+							</li>
+						</ul>
+					</div>
+					<div>
+						<h2 class="mb-6 text-sm font-semibold text-gray-400 uppercase dark:text-[#746D75]">Follow us</h2>
+						<ul class="text-gray-600 dark:text-gray-400">
+							<li class="mb-4">
+								<a href="#" class="hover:underline hover:text-[#E46602] text-[#0F1513]">Github</a>
+							</li>
+							<li>
+								<a href="#" class="hover:underline hover:text-[#E46602] text-[#0F1513]">Discord</a>
+							</li>
+						</ul>
+					</div>
+					<div>
+						<h2 class="mb-6 text-sm font-semibold text-gray-400 uppercase dark:text-[#746D75]">Legal</h2>
+						<ul class="text-gray-600 dark:text-gray-400">
+							<li class="mb-4">
+								<a href="#" class="hover:underline hover:text-[#E46602] text-[#0F1513]">Impressum</a>
+							</li>
+							<li>
+								<a href="#" class="hover:underline hover:text-[#E46602] text-[#0F1513]">Terms &amp; Conditions</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<hr class="my-6 border-gray-800 sm:mx-auto lg:my-8" />
+			<div class="block text-center">
+				<span class="text-sm text-gray-500 sm:text-center dark:text-[#0F1513]">© 2023 Lorem Ipsum
+				</span>
+			</div>
+		</div>
+	</footer>
+	<button type="button" data-mdb-ripple="true" data-mdb-ripple-color="light"
+		class="fixed inline-block p-3 bg-orange-500 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md transition duration-150 ease-in-out bottom-5 right-5 js-back-to-top">
+		<svg aria-hidden="true" focusable="false" data-prefix="fas" class="w-4 h-4" role="img"
+			xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+			<path fill="currentColor"
+				d="M34.9 289.5l-22.2-22.2c-9.4-9.4-9.4-24.6 0-33.9L207 39c9.4-9.4 24.6-9.4 33.9 0l194.3 194.3c9.4 9.4 9.4 24.6 0 33.9L413 289.4c-9.5 9.5-25 9.3-34.3-.4L264 168.6V456c0 13.3-10.7 24-24 24h-32c-13.3 0-24-10.7-24-24V168.6L69.2 289.1c-9.3 9.8-24.8 10-34.3.4z">
+			</path>
+		</svg>
+	</button>
+
+	<script>
+		/* START js for the mobile menu */
+		const navButton = document.getElementsByClassName("js-nav-button")[0];
+		const navLinks = document.getElementsByClassName("js-nav-link");
+
+		navButton.addEventListener("click", function () {
+			const navContainer = document.getElementsByClassName("js-nav-container")[0];
+			navContainer.classList.toggle("hidden");
+		});
+
+		for (let i = 0; i < navLinks.length; i++) {
+			navLinks[i].addEventListener("click", function () {
+				const navContainer = document.getElementsByClassName("js-nav-container")[0];
+				navContainer.classList.add("hidden");
+			});
+		}
+		/* END js for the mobile menu */
+	</script>
+
+	<script>
+		/* START js for the back to top button */
+		const mybutton = document.getElementsByClassName("js-back-to-top")[0];
+		window.onscroll = function () {
+			scrollFunction();
+		};
+
+		function scrollFunction() {
+			if (
+				document.body.scrollTop > 20 ||
+				document.documentElement.scrollTop > 20
+			) {
+				mybutton.classList.remove("hidden");
+				mybutton.classList.add("block");
+			} else {
+				mybutton.classList.remove("block");
+				mybutton.classList.add("hidden");
+			}
+		}
+		// When the user clicks on the button, scroll to the top of the document
+		mybutton.addEventListener("click", backToTop);
+
+		function backToTop() {
+			document.body.scrollTop = 0;
+			document.documentElement.scrollTop = 0;
+		}
+		/* END js for the back to top button */
+	</script>
+	<script>
+		/* START js for the trainer-card */
+		const cards = document.querySelectorAll(".js-trainer-card");
+		let currentIndex = 0;
+
+		function showCard(index) {
+			cards[currentIndex].classList.add("hidden");
+			cards[index].classList.remove("hidden");
+			currentIndex = index;
+		}
+
+		document.querySelector("#js-prevBtn").addEventListener("click", () => {
+			const newIndex = currentIndex === 0 ? cards.length - 1 : currentIndex - 1;
+			showCard(newIndex);
+		});
+
+		document.querySelector("#js-nextBtn").addEventListener("click", () => {
+			const newIndex = currentIndex === cards.length - 1 ? 0 : currentIndex + 1;
+			showCard(newIndex);
+		});
+		/* END js for the trainer-card */
+	</script>
+</body>
+
+</html>
